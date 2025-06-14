@@ -1,0 +1,103 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>servlet</display-name>
+
+  <servlet>
+    <servlet-name>signup</servlet-name>
+    <servlet-class>SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signup</servlet-name>
+    <url-pattern>/SignupServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ForgetPass</servlet-name>
+    <servlet-class>ForgetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForgetPass</servlet-name>
+    <url-pattern>/ForgetPasswordServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CreateQuiz</servlet-name>
+    <servlet-class>CreateQuizServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateQuiz</servlet-name>
+    <url-pattern>/CreateQuizServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QuizHistory</servlet-name>
+    <servlet-class>QuizHistoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuizHistory</servlet-name>
+    <url-pattern>/QuizHistoryServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QuizDetails</servlet-name>
+    <servlet-class>QuizDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuizDetails</servlet-name>
+    <url-pattern>/QuizDetailsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserSignup</servlet-name>
+    <servlet-class>UserSignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSignup</servlet-name>
+    <url-pattern>/UserSignupServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AttemptQuiz</servlet-name>
+    <servlet-class>AttemptQuizServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AttemptQuiz</servlet-name>
+    <url-pattern>/AttemptQuizServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SubmitQuiz</servlet-name>
+    <servlet-class>SubmitQuizServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubmitQuiz</servlet-name>
+    <url-pattern>/SubmitQuizServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+  <welcome-file-list>
+    <welcome-file>FrontPage.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
